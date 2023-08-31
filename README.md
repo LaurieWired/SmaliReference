@@ -1,3 +1,11 @@
+# Smali Reverse Engineering Reference
+[![Follow @lauriewired](https://img.shields.io/twitter/follow/lauriewired?style=social)](https://twitter.com/lauriewired)
+
+# Description
+Quickly reference Smali instructions and parameters for your Android Reverse Engineering.
+
+Android decompilation failures commonly occur, forcing Reverse Engineers to read the smali code of an application. The below reference contains commonly-used smali instruction. It also defines their functionality and the order of arguments to provide a quick guide. For a full list of smali instructions, you can also visit the [Android Dalvik Bytecode Reference](https://source.android.com/docs/core/runtime/dalvik-bytecode).
+
 ## Common Smali Instructions
 
 - **iput-object `<source>`, `<object>`, `<field>`**

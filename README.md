@@ -17,12 +17,12 @@ Android decompilation failures commonly occur, forcing Reverse Engineers to read
 
 - **const\4 `<register>`, `<number>`**
   - **Description**: Puts a 4-bit number into a register
-  - `<register>`: The register where the number be stored.
+  - `<register>`: The register where the number will be stored.
   - `<number>`: The number value, which has to be smaller than 16
 
 - **const\16 `<register>`, `<number>`**
   - **Description**: Puts a 16-bit number into a register
-  - `<register>`: The register where the number be stored.
+  - `<register>`: The register where the number will be stored.
   - `<number>`: The number value, which has to be smaller than 2^16
   
 - **new-instance `<register>`, `<type>`**
